@@ -3,6 +3,7 @@
 namespace UnityEngine.UI.Extensions
 {
     [RequireComponent(typeof(BookUI))]
+    [AddComponentMenu("Ellyality/UI/Page Selector")]
     public class PageSelector : MonoBehaviour
     {
         void Start()

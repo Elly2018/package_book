@@ -2,6 +2,7 @@
 
 namespace UnityEngine.UI.Extensions
 {
+    [AddComponentMenu("Ellyality/UI/Tessellator")]
     public class UITessellator : BaseMeshEffect
     {
         [SerializeField, Range(0, 5)]
